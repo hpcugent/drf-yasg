@@ -97,7 +97,7 @@ except (ImportError, LookupError) as e:
 
         timestamp_ms = int(time.time() * 1000)
         timestamp_str = hex(timestamp_ms)[2:].zfill(16)
-        dummy_version = '1!0.0.0.dev0+noscm.' + timestamp_str
+        dummy_version = "1.27.1"
 
         drf_yasg_setup(version=dummy_version)
 
